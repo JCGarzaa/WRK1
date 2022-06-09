@@ -32,7 +32,6 @@ An app to create, edit, and post workouts for yourself and others to see and use
 * User can track workout in real time
 * User can share workouts to feed
 * User can find nearby gym
-* ...
 
 **Optional Nice-to-have Stories**
 
@@ -43,7 +42,6 @@ An app to create, edit, and post workouts for yourself and others to see and use
 * User can search for full workouts
 * User can post when personal records are hit
 * User can view friends profile and their previous workouts
-* ...
 
 ### 2. Screen Archetypes
 
