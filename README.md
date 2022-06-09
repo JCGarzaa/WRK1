@@ -13,11 +13,11 @@ An app to create, edit, and post workouts for yourself and others to see and use
 
 ### App Evaluation
 - **Category:** Fitness
-- **Mobile:** Uniquely mobile as it uses location, GoogleMaps API and can send push notifications for when friends finish or post a workout
-- **Story:** Adds value to the fitness industry by allowing experts to share their work and tips with noobs who may not know which exercises to do, how many sets to do, etc.
+- **Mobile:** Uniquely mobile as it uses location, GoogleMaps API and can send push notifications for when friends finish or post a workout.
+- **Story:** Adds value to the fitness industry by allowing people of all levels to share their work and tips with others who may not know which exercises to do, how many sets to do, etc.
 - **Market:** Targets the fitness community which is fairly large.
-- **Habit:** Can be addictive/habit forming just like going to the gym. Track every workout, track your daily streak for working out.
-- **Scope:** Fairly challenging as there are many moving parts. Includes working with a database to store workouts, GoogleMaps API, building/editing workouts, sharing workouts
+- **Habit:** Can be addictive/habit forming just like going to the gym. Track every time you workout, track your daily streak for working out. Can view other people's streaks.
+- **Scope:** Fairly challenging as there are many moving parts. Includes working with a database to store workouts, GoogleMaps API, building/editing workouts, sharing workouts.
 
 ## Product Spec
 
