@@ -37,6 +37,7 @@ An app to create, edit, and post workouts for yourself and others to see and use
 
 * User can create custom exercises
 * User can click on workout and start/edit to make their own
+* User can view extended details of each workout
 * User can add friends
 * User can send a workout to a friend
 * User can search for full workouts
@@ -55,8 +56,6 @@ An app to create, edit, and post workouts for yourself and others to see and use
     * User can share workouts to feed
 * Creation
     * User can build/edit workouts
-* Detail
-    * User can view details of workout
 * Detail
     * User can track workout in real time
 * Detail
@@ -86,20 +85,3 @@ An app to create, edit, and post workouts for yourself and others to see and use
    * Profile - For if you want to save workout for later
 * Real-Time Tracker
     * Stream - Community feed (after posting workout)
-
-
----
-* Login
-    * User can login
-* Register
-    * User can register for an account
-* Profile
-    * User can view previous workouts
-* Stream
-    * User can share workouts to feed
-* Creation
-    * User can build/edit workouts
-* Detail
-    * User can track workout in real time
-* Detail
-    * User can find nearby gyms
