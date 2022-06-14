@@ -6,6 +6,8 @@ CAPSTONE App Design Project - README
 ## Table of Contents
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -85,3 +87,11 @@ An app to create, edit, and post workouts for yourself and others to see and use
    * Profile - For if you want to save workout for later
 * Real-Time Tracker
     * Stream - Community feed (after posting workout)
+
+## Wireframes
+<img src="https://raw.githubusercontent.com/JCGarzaa/WRK/d7343b9f13c272398cd894a465773cfadab5ca80/Wireframe.jpg" width=600>
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+[Add table of models]
