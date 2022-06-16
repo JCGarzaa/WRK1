@@ -92,6 +92,51 @@ An app to create, edit, and post workouts for yourself and others to see and use
 <img src="https://raw.githubusercontent.com/JCGarzaa/WRK/d7343b9f13c272398cd894a465773cfadab5ca80/Wireframe.jpg" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Exercise
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | bodyPart       | String   | Targeted body part |
+   | name         | String   | name of exercise |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
+#### Workout
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | components       | Array   | array of WorkoutComponents |
+   | title         | String   | title of workout |
+   | description    | String   | short description of the workout |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+
+#### WorkoutComponent
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | exercise      | Pointer  | pointer to an individual exercise |
+   | sets          | Number   | number of sets to complete for the exercise |
+   | reps          | Number   | number of reps to complete per set |
+   | weight        | Number   | amount of weight (lbs) for a set |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | username      | String   | username for user login (default field) |
+   | password      | String   | password for user login (default field) |
+   | name          | String   | name of user |
+   | email         | String   | email of user (default field) |
+   | profilePic         | File     | profile picture for user |
+   | streak       | Number   | day streak of workout in arow |
+   | workouts.     | Array    | Array of saved workouts for user |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
