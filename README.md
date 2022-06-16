@@ -103,14 +103,24 @@ An app to create, edit, and post workouts for yourself and others to see and use
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
    
-#### Workout
+#### WorkoutPerformed
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | user    | Pointer   | Points to user that completed workout |
+   | workout | Pointer   | Points to the workout template that was completed |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+
+#### WorkoutTemplate
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
    | components       | Array   | array of WorkoutComponents |
    | title         | String   | title of workout |
-   | description    | String   | short description of the workout |
+   | components | Array       | Array of exercises in the workout
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 
@@ -137,6 +147,6 @@ An app to create, edit, and post workouts for yourself and others to see and use
    | email         | String   | email of user (default field) |
    | profilePic         | File     | profile picture for user |
    | streak       | Number   | day streak of workout in arow |
-   | workouts.     | Array    | Array of saved workouts for user |
+   | lastWD        | String   | date of the most recent workout |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
